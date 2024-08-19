@@ -1,0 +1,71 @@
+@media (max-width: 1140px) {
+    body {
+        background-image: url(/src/images/bg-mobile.svg);
+        background-color: hsl(257, 40%, 49%);
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: top;
+        background-attachment: fixed;
+        height: 100vh;
+        margin: 0;
+        overflow-x: hidden;
+    }
+
+
+    .all header {
+        margin-top: 100px;
+        margin-left: 80px;
+    }
+
+    .all main .center-content {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .all main .center-content img {
+        max-width: 100%;
+        max-height: auto;
+        margin-left: 70px;
+        margin-right: 70px;
+    }
+
+    .all main .center-content .content-info {
+        text-align: center;
+    }
+
+    .all main .center-content .content-info .content-p {
+        margin-bottom: 45px;
+    }
+
+    .all main .center-content .content-info .register-button {
+        font-size: 13px;
+        padding: 13px 85px;
+    }
+
+    .all footer .social-icons {
+        justify-content: center;
+        left: 0px;
+    }
+
+    .all footer .social-icons .face-icon,
+    .twitter-icon,
+    .insta-icon {
+        margin-right: 0;
+        margin-top: 100px;
+        margin-bottom: 40px;
+    }
+
+    .all footer .social-icons .twitter-icon {
+        margin-right: 13px;
+        margin-left: 13px;
+    }
+}
+
+@media (max-width: 860px) {
+    .all main .center-content img {
+        max-width: 350px;
+        height: auto;
+    }
+} 
