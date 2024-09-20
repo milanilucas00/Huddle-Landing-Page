@@ -12,7 +12,6 @@ Este é um projeto de desafio do do DevQuest, do [Dev em Dobro](https://www.yout
 
 - HTML5
 - CSS3
-- JavaScript (se aplicável)
 - FavIcon
 - Google Fonts
 
